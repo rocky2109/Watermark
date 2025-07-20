@@ -1,4 +1,4 @@
 pyrogram
 pillow
-moviepy
+moviepy>=1.0.0
 pytesseract
