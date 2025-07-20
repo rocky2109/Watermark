@@ -13,9 +13,9 @@ bot_token = os.getenv("BOT_TOKEN")
 app = Client("watermark_bot", api_id=api_id, api_hash=api_hash, bot_token=bot_token)
 
 # Configure paths and fonts for watermarking
-WATERMARK_TEXT = "© DarkysEx"
+WATERMARK_TEXT = "Rocky"
 FONT_PATH = "/path/to/font.ttf"  # Ensure you have a TTF font file
-FONT_SIZE = 30
+FONT_SIZE = 20
 
 @app.on_message(filters.command("start") & filters.private)
 async def start_command(client: Client, message: Message):
